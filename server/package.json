@@ -1,0 +1,20 @@
+{
+  "name": "login_form",
+  "version": "1.0.0",
+  "description": "LoginForm This project is a full-stack web application that allows users to sign up, submit profile information, and view their profile in a user-friendly interface. The backend is powered by Node.js and Express, and the data is stored in a MongoDB database. The frontend is built using React, providing a modern and interactive user experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9"
+  }
+}
