@@ -20,6 +20,6 @@ MongoDB: A NoSQL database to store user data.
 Mongoose: An ODM (Object Data Modeling) library for MongoDB and Node.js.
 Installation
 1. Clone the repository
-git clone https://github.com/Harish-Kumar-2049/Login-Form.git cd Login-Form
+git clone https://github.com/Harish-Kumar-2049/RegisterForm.git cd Login-Form
 
 #Then set up both front end and backend #Then register,to see the database, #Open MongoDB Compass and paste the connection string. #Enter the username:HarishKumar and password:K4rjaeujuf0r0Hmo Once connected, select the database Test and look at the collection:Student and documents inside. If your data is being stored, you can see the records in the collection where you store the form data.
