@@ -42,3 +42,8 @@ cd server
 npm install
 npm start
 
+Once you execute npm start 
+you will see "Server is running on port 3001"
+wait untill you see "Connected to MongoDB" in the terminal
+and then go to client i.e "http://localhost:5173/"
+If you give submit before "Connected to MongoDB" message, Submit button may not work
