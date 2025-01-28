@@ -1,4 +1,11 @@
-LoginForm
+Registratin Form
+
+RegisterForm/
+├── client/         # Frontend code (React or other framework)
+├── server/         # Backend code (Node.js/Express)
+└── README.md       # Documentation
+
+
 This project is a full-stack web application that allows users to sign up, submit profile information, and view their profile in a user-friendly interface. The backend is powered by Node.js and Express, and the data is stored in a MongoDB database. The frontend is built using React, providing a modern and interactive user experience.
 
 Features
@@ -23,3 +30,15 @@ Installation
 git clone https://github.com/Harish-Kumar-2049/RegisterForm.git cd Login-Form
 
 #Then set up both front end and backend #Then register,to see the database, #Open MongoDB Compass and paste the connection string. #Enter the username:HarishKumar and password:K4rjaeujuf0r0Hmo Once connected, select the database Test and look at the collection:Student and documents inside. If your data is being stored, you can see the records in the collection where you store the form data.
+
+Setting up Client
+cd client
+npm install
+npm run dev
+
+Setting up Server
+in a new terminal 
+cd server 
+npm install
+npm start
+
