@@ -21,7 +21,7 @@ let uri =
 
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: "http://localhost:5173" })); // Specify your frontend URL here
+app.use(cors({ origin: "http://localhost:5173" }));
 
 // Serve the uploaded files statically
 app.use("/uploads", express.static("uploads"));
