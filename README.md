@@ -1,7 +1,7 @@
 Registratin Form
 
 RegisterForm/
-├── client/         # Frontend code (React or other framework)
+├── client/         # Frontend code (React)
 ├── server/         # Backend code (Node.js/Express)
 └── README.md       # Documentation
 
